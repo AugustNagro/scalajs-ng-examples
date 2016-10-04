@@ -1,16 +1,11 @@
 package app
 
-import app.quickstart.QuickStartModule
-import ng.macros.NgModule
 import ng.macros._
+import ng.platformBrowser.BrowserModule
 
 @NgModule(
-  "imports" -> @@(classOf[QuickStartModule]),
-
+  "imports" -> @@(classOf[BrowserModule]),
   "declarations" -> @@(classOf[AppComponent]),
-
-  "providers" -> @@(),
-
   "bootstrap" -> @@(classOf[AppComponent])
 )
 class AppModule {

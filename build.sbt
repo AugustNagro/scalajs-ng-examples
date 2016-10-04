@@ -1,12 +1,16 @@
-name := """scalajs-ng-examples"""
+lazy val root = project.in(file("."))
+  .enablePlugins(ScalaJSPlugin)
+  .enablePlugins(NGPlugin)
+  .settings(
+    version := "1.0",
+    scalaVersion := "2.11.8",
+    persistLauncher := true,
+    resolvers += Resolver.sonatypeRepo("snapshots"),
 
-version := "1.0"
+    libraryDependencies ++= Seq(
+      "com.augustnagro" %%% "scalajs-ng" % "0.0.1-SNAPSHOT",
+      "org.scala-js" %%% "scalajs-dom" % "0.9.0",
+      "com.lihaoyi" %%% "scalatags" % "0.6.0"
+    )
 
-scalaVersion := "2.11.7"
-
-// Change this to another test framework if you prefer
-libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.4" % "test"
-
-// Uncomment to use Akka
-//libraryDependencies += "com.typesafe.akka" %% "akka-actor" % "2.3.11"
-
+  )

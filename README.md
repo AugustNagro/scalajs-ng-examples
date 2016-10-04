@@ -8,7 +8,6 @@ Contributions welcome.
 | ---------------------- | ------------- | ------------------------------- |:-------:|
 | [Quick Start](https://angular.io/docs/ts/latest/quickstart.html)| `quickstart` | [quickstart](https://augustnagro.com/sjs-ng/quickstart)| X |
 | [Displaying Data](https://angular.io/docs/ts/latest/guide/displaying-data.html) | `displayingData` | [displayingData](https://augustnagro.com/sjs-ng/displayingData)| |
-| [User Input](https://angular.io/docs/ts/latest/guide/user-input.html)| `userInput` | [userInput](https://augustnagro.com/sjs-ng/userInput)| |
 | [Forms](https://angular.io/docs/ts/latest/guide/forms.html)| `forms` | [forms](https://augustnagro.com/sjs-ng/forms)| |
 | [Dependency Injection](https://angular.io/docs/ts/latest/guide/dependency-injection.html)| `dependencyInjection` | [dependencyInjection](https://augustnagro.com/sjs-ng/dependencyInjection)| |
 | [Template Syntax](https://angular.io/docs/ts/latest/guide/template-syntax.html)| `templateSyntax` | [templateSyntax](https://augustnagro.com/sjs-ng/templateSyntax)| |

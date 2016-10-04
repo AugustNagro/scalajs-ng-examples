@@ -1,26 +1,27 @@
 lazy val root = project.in(file(".")).
-  aggregate(quickstart)
+  aggregate(quickstart, tourOfHeroes, displayingData, forms)
 
 lazy val quickstart = project.
   enablePlugins(ScalaJSPlugin, NGPlugin).
   settings(commonSettings: _*)
 
-//lazy val displayingData = project.
-//  enablePlugins(ScalaJSPlugin, NGPlugin).
-//  settings(commonSettings: _*)
-//
-//lazy val userInput = project.
-//  enablePlugins(ScalaJSPlugin, NGPlugin).
-//  settings(commonSettings: _*)
-//
-//lazy val forms = project.
-//  enablePlugins(ScalaJSPlugin, NGPlugin).
-//  settings(commonSettings: _*)
-//
+lazy val tourOfHeroes = project.
+  enablePlugins(ScalaJSPlugin, NGPlugin).
+  settings(commonSettings: _*)
+
+
+lazy val displayingData = project.
+  enablePlugins(ScalaJSPlugin, NGPlugin).
+  settings(commonSettings: _*)
+
+lazy val forms = project.
+  enablePlugins(ScalaJSPlugin, NGPlugin).
+  settings(commonSettings: _*)
+
 //lazy val dependencyInjection = project.
 //  enablePlugins(ScalaJSPlugin, NGPlugin).
 //  settings(commonSettings: _*)
-//
+
 //lazy val templateSyntax = project.
 //  enablePlugins(ScalaJSPlugin, NGPlugin).
 //  settings(commonSettings: _*)

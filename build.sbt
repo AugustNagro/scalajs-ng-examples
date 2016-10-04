@@ -1,4 +1,4 @@
-lazy val root = project.in(file(".")).
+lazy val `scalajs-ng-examples` = project.in(file(".")).
   aggregate(quickstart, tourOfHeroes, displayingData, forms)
 
 lazy val quickstart = project.

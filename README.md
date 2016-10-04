@@ -7,8 +7,8 @@ Contributions welcome.
 | Project                | Directory     | Url                             | Is Done |
 | ---------------------- | ------------- | ------------------------------- |:-------:|
 | [Quick Start](https://angular.io/docs/ts/latest/quickstart.html)| `quickstart` | [quickstart](https://augustnagro.com/sjs-ng/quickstart)| X |
-| [Displaying Data](https://angular.io/docs/ts/latest/guide/displaying-data.html) | `displayingData` | [displayingData](https://augustnagro.com/sjs-ng/displayingData)| |
-| [Forms](https://angular.io/docs/ts/latest/guide/forms.html)| `forms` | [forms](https://augustnagro.com/sjs-ng/forms)| |
+| [Displaying Data](https://angular.io/docs/ts/latest/guide/displaying-data.html) | `displayingData` | [displayingData](https://augustnagro.com/sjs-ng/displayingData)|X|
+| [Forms](https://angular.io/docs/ts/latest/guide/forms.html)| `forms` | [forms](https://augustnagro.com/sjs-ng/forms)|X|
 | [Dependency Injection](https://angular.io/docs/ts/latest/guide/dependency-injection.html)| `dependencyInjection` | [dependencyInjection](https://augustnagro.com/sjs-ng/dependencyInjection)| |
 | [Template Syntax](https://angular.io/docs/ts/latest/guide/template-syntax.html)| `templateSyntax` | [templateSyntax](https://augustnagro.com/sjs-ng/templateSyntax)| |
 | [Tour of Heroes](https://angular.io/docs/ts/latest/tutorial/) | `tourOfHeroes` | [tourOfHeroes](https://augustnagro.com/sjs-ng/tourOfHeroes)| X |

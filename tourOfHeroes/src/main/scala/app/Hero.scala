@@ -1,14 +1,12 @@
 package app
 
+import scala.scalajs
 import scala.scalajs.js
+import scala.scalajs.js.annotation.ScalaJSDefined
 
-@js.native
+@ScalaJSDefined
 trait Hero extends js.Object {
-  val id: Int = js.native
-  val name: String = js.native
+  val id: Int
+  val name: String
 }
-object Hero {
-  def apply(id: Int, name: String): Hero = {
-    js.Dynamic.literal(id = id, name = name).asInstanceOf[Hero]
-  }
-}
+

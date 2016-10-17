@@ -9,17 +9,14 @@ import ng.platformBrowser.BrowserModule
   "imports" -> @@(classOf[BrowserModule],
                   classOf[FormsModule],
                   classOf[HttpModule],
-                  BaseRoutes.routing),
-  
+                  classOf[AppRoutingModule]),
 
   "declarations" -> @@(classOf[AppComponent],
                        classOf[DashboardComponent],
                        classOf[HeroDetailComponent],
                        classOf[HeroesComponent]),
 
-
   "providers" -> @@(classOf[HeroService]),
-
 
   "bootstrap" -> @@(classOf[AppComponent])
 )

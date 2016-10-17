@@ -14,7 +14,7 @@ import ng.ngScalaTags._
           routerLink("/heroes")("Heroes")
         ),
         routerOutlet
-      ).toString
+      ).toString()
   )
 class AppComponent {
   val title = "Tour of Heroes"

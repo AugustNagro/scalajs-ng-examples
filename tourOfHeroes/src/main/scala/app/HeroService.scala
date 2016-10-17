@@ -11,12 +11,12 @@ import scala.scalajs.js.Dynamic.literal
 class HeroService(http: Http) {
 
   private var heroes: js.Array[Hero] = js.Array(
-    Hero(0, "The Comedian"),
-    Hero(1, "Doctor Manhattan"),
-    Hero(2, "Nite Owl (click me)"),
-    Hero(3, "Ozymandias"),
-    Hero(4, "Rorschach"),
-    Hero(5, "Silk Spectre")
+    new Hero{val id=0; val name="The Comedian"},
+    new Hero{val id=1; val name="Doctor Manhattan"},
+    new Hero{val id=2; val name="Nite Owl (click me)"},
+    new Hero{val id=3; val name="Ozymandias"},
+    new Hero{val id=4; val name="Rorschach"},
+    new Hero{val id=5; val name="Silk Spectre"}
   )
 
 
@@ -29,13 +29,13 @@ class HeroService(http: Http) {
   def delete(id: Int): Observable[js.Array[Hero]] = {
     heroes.remove(id)
     heroes = heroes.map(h => {
-      if(h.id > id) Hero(h.id - 1, h.name) else h
+      if(h.id > id) new Hero{val id = h.id - 1; val name = h.name} else h
     })
     Observable.of(heroes)
   }
 
-  def create(name: String): Observable[js.Array[Hero]] = {
-    val hero = Hero(heroes.length, name)
+  def create(heroName: String): Observable[js.Array[Hero]] = {
+    val hero = new Hero{val id = heroes.length; val name = heroName}
     heroes += hero
     Observable.of(heroes)
   }

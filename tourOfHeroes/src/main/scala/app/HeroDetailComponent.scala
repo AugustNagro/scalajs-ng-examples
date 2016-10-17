@@ -1,10 +1,12 @@
 package app
 
+import ng.common.Location
 import ng.core.OnInit
 import ng.macros.Component
 import ng.router.ActivatedRoute
 import org.scalajs.dom
 import ng.ngScalaTags._
+
 import scalatags.Text.all._
 
 @Component(
@@ -22,7 +24,7 @@ import scalatags.Text.all._
       ).toString
 
 )
-class HeroDetailComponent(heroService: HeroService, route: ActivatedRoute) extends OnInit {
+class HeroDetailComponent(heroService: HeroService, route: ActivatedRoute, location: Location) extends OnInit {
 
   var hero: Hero = _
 
@@ -38,7 +40,7 @@ class HeroDetailComponent(heroService: HeroService, route: ActivatedRoute) exten
   }
 
   def goBack(): Unit = {
-    dom.window.history.back()
+    location.back()
   }
 
 }

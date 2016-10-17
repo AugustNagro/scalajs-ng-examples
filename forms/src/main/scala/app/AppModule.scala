@@ -9,6 +9,4 @@ import ng.platformBrowser.BrowserModule
   "declarations" -> @@(classOf[AppComponent], classOf[HeroFormComponent]),
   "bootstrap" -> @@(classOf[AppComponent])
 )
-class AppModule {
-
-}
+class AppModule {}

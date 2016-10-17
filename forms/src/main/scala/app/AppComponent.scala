@@ -6,6 +6,4 @@ import ng.macros.Component
   "selector" -> "my-app",
   "template" -> "<hero-form></hero-form>"
 )
-class AppComponent {
-
-}
+class AppComponent {}

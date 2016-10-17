@@ -1,6 +1,5 @@
 package app
 
-import scala.scalajs
 import scala.scalajs.js
 import scala.scalajs.js.annotation.ScalaJSDefined
 
@@ -9,4 +8,3 @@ trait Hero extends js.Object {
   val id: Int
   val name: String
 }
-

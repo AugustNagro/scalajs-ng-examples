@@ -11,7 +11,7 @@ Contributions welcome.
 | [Forms](https://angular.io/docs/ts/latest/guide/forms.html)| `forms` | [forms](https://augustnagro.com/sjs-ng/forms)|X|
 | [Dependency Injection](https://angular.io/docs/ts/latest/guide/dependency-injection.html)| `dependencyInjection` | [dependencyInjection](https://augustnagro.com/sjs-ng/dependencyInjection)| |
 | [Template Syntax](https://angular.io/docs/ts/latest/guide/template-syntax.html)| `templateSyntax` | [templateSyntax](https://augustnagro.com/sjs-ng/templateSyntax)| |
-| [Tour of Heroes](https://angular.io/docs/ts/latest/tutorial/) | `tourOfHeroes` | [tourOfHeroes](https://augustnagro.com/sjs-ng/tourOfHeroes)| X |
+| [Tour of Heroes](https://angular.io/docs/ts/latest/tutorial/) | `tourOfHeroes` | [tourOfHeroes](https://augustnagro.com/sjs-ng/tourOfHeroes)|  |
 | [Angular Modules](https://angular.io/docs/ts/latest/guide/ngmodule.html)| `angularModules` | [angularModules](https://augustnagro.com/sjs-ng/angularModules)| |
 | [Animations](https://angular.io/docs/ts/latest/guide/animations.html)| `animations` | [animations](https://augustnagro.com/sjs-ng/animations)| |
 | [Attribute Directives](https://angular.io/docs/ts/latest/guide/attribute-directives.html)| `attributeDirectives` | [attributeDirectives](https://augustnagro.com/sjs-ng/attributeDirectives)| |

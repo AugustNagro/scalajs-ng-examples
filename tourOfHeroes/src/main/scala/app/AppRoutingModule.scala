@@ -13,10 +13,7 @@ import ng.router.{Route, RouterModule, Routes}
         Route(path = "detail/:id", component = classOf[HeroDetailComponent]),
         Route(path = "heroes", component = classOf[HeroesComponent])
       )
-  )),
-
+    )),
   "exports" -> @@(RouterModule)
 )
-class AppRoutingModule {
-
-}
+class AppRoutingModule {}

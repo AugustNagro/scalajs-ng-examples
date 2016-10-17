@@ -1,6 +1,5 @@
 package app
 
-import scala.scalajs
 import scala.scalajs.js
 
 @js.native
@@ -12,9 +11,12 @@ trait Hero extends js.Object {
 }
 
 object Hero {
-  def apply(id: Int, name: String, power: String, alterEgo: Option[String] = None): Hero = {
+  def apply(id: Int,
+            name: String,
+            power: String,
+            alterEgo: Option[String] = None): Hero = {
     val hero = js.Dynamic.literal(id = id, name = name, power = power)
-    if(alterEgo.isDefined) hero.alterEgo = alterEgo.get
+    if (alterEgo.isDefined) hero.alterEgo = alterEgo.get
     hero.asInstanceOf[Hero]
   }
 }

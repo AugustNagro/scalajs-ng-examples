@@ -1,6 +1,8 @@
 ## scalajs-ng Examples
 
-A collection of examples from the [Angular 2 docs](https://angular.io/docs/). Build with `sbt fastOptJS`, and view each example project by running `python -m SimpleHTTPServer` in a project's directory. The `tourOfHeroes` project is live at https://augustnagro.com/tourofheroes
+**Status:** This project is an experiment and should not be used.
+
+A collection of examples from the [Angular 2 docs](https://angular.io/docs/). Build with `sbt fastOptJS`, and view each example project by running `python -m SimpleHTTPServer` in a project's directory.
 
 Contributions welcome.
  
